@@ -3,10 +3,12 @@ Convert G-Code X moves to rotary A moves
 
 This is a DotNet program and runs on Mac/PC/Linux provided the Net environment is installed. It is a simple command line program which read in a G-Code text file and repaces all of the X moves with A moves. This enables the simple milling of round parts using a fourth axis stepper system.
 
-Usage on a PC is - X2A <file>
+Usage on a PC is - X2A filetoconvert
+
   e.g. X2A testfile.nc
   
-Usage on a Mac is - mono X2A <file>
+Usage on a Mac is - mono X2A filetoconvert
+
   e.g. mono X2A testfile.nc
   
 The file is read in, scanned and altered and written out.
