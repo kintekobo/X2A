@@ -7,7 +7,7 @@ Usage on a PC is - X2A filetoconvert
 
   e.g. X2A testfile.nc
   
-Usage on a Mac is - mono X2A filetoconvert
+Usage on a Mac is - mono X2A.exe filetoconvert
 
   e.g. mono X2A testfile.nc
   
